@@ -1,0 +1,56 @@
+1)
+false
+true
+true
+false
+
+2)
+true
+true
+true
+false
+true
+true
+false
+false
+false
+
+3) let a = prompt("Digite o valor de a")
+            console.log(a)
+            if (a > 10) {
+                console.log("O número é maior que 10!")
+}
+            console.log("programa finalizado")
+
+
+4) 
+    let numero = prompt("Digite o numero")
+        if (numero % 2 == 0){
+          let n = numero/2
+          console.log(n)
+         console.log("programa finalizado")
+        }else{
+         console.log(numero)
+         console.log("programa finalizado")
+      }
+
+5)
+let numero = prompt("Digite o numero")
+    if (numero % 2 == 0){
+        alert("O numero é par")
+    }else{
+        alert("O numero é impar")
+    }
+
+6)
+ let numero = prompt("Digite o numero")
+       if (numero > 20 && numero < 90) {
+            console.log("O número está na faixa entre 20 e 90")
+        } else {
+            console.log("O número está fora da faixa")
+        }
+
+7)
+
+8)
+"
