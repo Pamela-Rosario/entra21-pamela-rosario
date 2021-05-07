@@ -35,7 +35,7 @@ false
       }
 
 5)
-let numero = prompt("Digite o numero")
+let numero = +prompt("Digite o numero")
     if (numero % 2 == 0){
         alert("O numero é par")
     }else{
@@ -51,43 +51,44 @@ let numero = prompt("Digite o numero")
         }
 
 7)
+Booleans
 
-8))let A = Number(prompt("Digite o valor de A"))
-        let B = Number(prompt("Digite o valor de B"))
-        let C = Number(prompt("Digite o valor de C"))
-            if (A>B && A>C){
+8)   let A = Number(prompt("Digite o valor de A"))
+     let B = Number(prompt("Digite o valor de B"))
+     let C = Number(prompt("Digite o valor de C"))
+          if (A>B && A>C){
              alert(`O maior valor é ${A}`)
-            } else if (B>C && B>A){
+        } else if (B>C && B>A){
              alert(`O maior valor é ${B}`)
-            } else {
+        } else {
              alert(`O maior valor é ${C}`)
             }
 
 9)
-  let a = Number(prompt("Digite o primeiro valor"))
+        let a = Number(prompt("Digite o primeiro valor"))
         let b = Number(prompt("Digite o segundo valor"))
         let resultado = a + b
         resultado > 4 ? alert("Acima") : alert("Abaixo")
 
 10)
-  let lado1 = Number(prompt("Digite valor do primeiro lado"))
+        let lado1 = Number(prompt("Digite valor do primeiro lado"))
         let lado2 = Number(prompt("Digite valor do segundo lado"))
         let lado3 = Number(prompt("Digite valor do terceiro lado"))
             if (lado1 === lado2 && lado1 === lado3 && lado2 ===lado3) {
-             alert("Esse Triângulo é Equilátero")
+                alert("Esse Triângulo é Equilátero")
             }else if (lado1 != lado2 && lado2 != lado3 && lado1 != lado3){
-             alert("Esse Triãngulo é um Escaleno")
+                alert("Esse Triãngulo é um Escaleno")
             }else{
                 alert("Esser Triângulo é um Isósceles")
             }
 
 11)
- let numero = Number(prompt("Digite um numero positivo"))
-      let raiz = 
+      let numero = Number(prompt("Digite um numero positivo"))
+      let raiz = Math.sqrt(numero)
          if (numero < 1){
-            alert(raiz)
+              alert(raiz)
          }else{
-            alert("Esse numero é invalido")
+             alert("Esse numero é invalido")
          }
 
 12)
@@ -113,12 +114,11 @@ if (numero > 0) {
 14)
 let salario = Number(prompt("Digite o salário"))
 let prestacao = Number(prompt("Digite a prestação"))
-
-if (prestacao > (salario * 0.2)) {
-    console.log("Empréstimo não concedido")
-} else {
-    console.log("Empréstimo concedido")
-}
+            if (prestacao > (salario * 0.2)) {
+               console.log("Empréstimo não concedido")
+            } else {
+              console.log("Empréstimo concedido")
+            }
 
 15)
 let time1 = Number(prompt("Quantos gols fez primeiro time?"))
