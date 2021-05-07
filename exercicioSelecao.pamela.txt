@@ -101,15 +101,7 @@ let numero = Number(prompt("Informe o numero"))
     }
 
 13)
-let numero = Number(prompt("Digite um número"))
-let raiz
 
-if (numero > 0) {
-    raiz = Math.sqrt(numero)
-    console.log(`Raíz quadrada: ${raiz.toFixed(2)}.`)
-} else {
-    console.log(`Número ao quadrado: ${numero**2}`)
-}
 
 14)
 let salario = Number(prompt("Digite o salário"))
@@ -132,7 +124,7 @@ let time1 = Number(prompt("Quantos gols fez primeiro time?"))
 }
 
 16)
-let idade =
+let idade =Number(prompt("Digite sua idade"))
         if (idade < 16) {
          console.log("Não precisa votar")
         }else if (idade > 18 && idade < 70) {
