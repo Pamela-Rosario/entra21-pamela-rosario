@@ -1,0 +1,12 @@
+1)
+// while
+let i = 0
+        while (i < 10) {
+           console.log(`Olá mundo! ${i} ` )
+           i++ 
+        }
+// do while
+let i = 0 
+do {
+    console.log("Olá mundo")
+} while (i > 10)
