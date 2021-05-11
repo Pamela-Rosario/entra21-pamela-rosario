@@ -1,0 +1,71 @@
+1)
+//while
+let contador = 0
+        while (contador < 10) {
+           console.log(`Olá mundo! ` )
+           contador++ 
+        }
+
+// do while
+let contador = 0
+do { 
+    console.log(`Olá mundo `)
+    ++contador
+} while (i < 10)
+
+// for
+let contador = 0
+for (let contador = 0; contador < 10; contador++) {
+            console.log(`Olá mundo! `)
+        }
+
+2)
+//while
+let contador = 0
+let i = 0
+        while (i < 10) {
+           console.log(`Estou aparecendo pela ${++contador} na tela!`)
+           i++ 
+        }
+
+// do while
+let contador = 0
+let i = 0
+do { 
+    console.log(`Estou aparecendo pela ${++contador} na tela!`)
+    ++i
+} while (i < 10)
+
+//for
+let contador = 0
+        for (let i = 0; i < 10; i++) {
+            console.log(`Estou aparecendo pela ${++contador} na tela!`)
+            }
+
+3)
+let contador = 0
+for (let i = 10; i > -1; i--) {
+            console.log(i)
+        }
+console.log("FIM")
+
+4)
+
+5)
+let contador = 0
+for (let i = 0; i < 100000; i += 1000){
+            console.log(contador)
+}
+
+6)
+ let soma = 0
+
+        for (let i = 0; i < 5; i++) {
+            let valor = +prompt(`Digite o ${i + 1} valor`)
+            soma += valor
+        } 
+        let media = soma / 5 
+
+        console.log(`Soma : ${soma}\n Media:${media.toFixed(2)}` )
+        
+7)

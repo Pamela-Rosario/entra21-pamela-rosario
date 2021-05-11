@@ -82,9 +82,9 @@ let numero = number(prompt("Digite o numero"))
             }
 
 11)
- let numero = Number(prompt("Digite um numero positivo"))
-      let raiz = 
-         if (numero < 1){
+ let numero = Number(prompt("Digite um numero"))
+      let raiz = Math.sqrt(numero)
+         if (numero > 1){
             alert(raiz)
          }else{
             alert("Esse numero é invalido")

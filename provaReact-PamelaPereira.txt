@@ -1,0 +1,79 @@
+1)
+B
+
+2)
+D
+
+3)
+
+
+4)
+>FLUXOGRAMA<
+
+5)let nota1 = +prompt("Digite a primeira nota")
+    let nota2 = +prompt("Digite a segunda nota")
+    let media = nota1 + nota2 / 2
+    if (media > 6 ){
+        alert("APROVADO")
+    } else {
+        alert("REPROVADO")
+    }
+
+6)
+
+let numero1 = +prompt("Digite o primeiro número")
+    let numero2 = +prompt("Digite o segundo número")
+    
+    if (numero1 > numero2 ){
+        alert(numero1)}
+        else if (numero2 > numero1 ){
+        alert(numero2)
+    }else {
+        alert("Os números são iguais")
+    }
+
+7)
+let numero1 = +prompt("Digite o primeiro número")
+let numero2 = +prompt("Digite o segundo número")
+let numero3 = +prompt("Digite o terceiro número")
+
+if (numero1 > numero2 && numero2 > numero3) {
+    alert(numero1, numero2, numero3)
+} else if (numero1 > numero3 && numero3 > numero2) {
+    alert(numero1, numero3, numero2)
+} else if (numero2 > numero1 && numero1 > numero3) {
+    alert(numero2, numero1, numero3)
+} else if (numero2 > numero3 && numero3 > numero1) {
+    alert(numero2, numero3, numero1)
+} else if (numero3 > numero1 && numero1 > numero2) {
+    alert(numero3, numero1, numero2)
+} else {
+    alert(numero3, numero2, numero1)
+}
+
+8)
+let valor = +prompt("Digite um valor")
+
+if (valor > 19 && valor < 51){
+    console.log("O valor esta dentro do intervalo entre 20 e 50")
+} else {
+ console.log("O valor digitado está fora do intervalo")
+}
+
+9)
+
+
+10)
+let peso = +prompt("Digite o seu peso")
+let altura = +prompt("Digite sua altura")
+let altura2= altura * altura
+let imc = peso / altura2
+if (imc < 18.5){
+     console.log(`Seu imc é : ${imc}\n Abaixo do peso`)
+ } else if(imc > 18.5 && imc < 24.9){
+     console.log(`Seu imc é : ${imc}\n Peso normal`)
+ }else if(imc > 25 && imc < 29.9){
+     console.log(`Seu imc é : ${imc}\nAcima do peso`)
+ } else {
+     console.log(`Seu imc é : ${imc}\n Obeso`)
+ }
