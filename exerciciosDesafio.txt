@@ -1,0 +1,67 @@
+17) Elabore um script que leia um número e apresente o antecessor, o número e o sucessor.
+
+//let y = Number(prompt("Digite o número")) // 1
+let x = y //y = 1; x = 1;
+let z = y //y = 1; x = 1; z = 1
+y++ // y = 2; x = 1; z = 1
+z-- // y = 2; x = 1; z = 0
+console.log(z, x, y)
+//
+
+18) Faça um programa que calcule e mostre o volume de uma esfera sendo fornecido o valor de seu raio (R). 
+A fórmula para calcular o volume é: (4/3) * pi * R3. Considere (atribua) para pi o valor 3.14159.
+
+//let raio = Number(prompt("digite o raio da esfera"))
+const PI = 3.14159
+let vEsfera = (4*PI*raio**3)/3      
+        
+console.log(`informações\nRaio = ${raio}\n pi = ${PI}\nFormula = (4*pi*raio³)/3\nResultado = ${vEsfera.toFixed(2)}m³`)
+//
+
+19) Escreva um script que receba a base e altura de triângulo e calcule a sua área.
+Entrada:       Saida:
+10             ÁREA = 100
+20
+
+//let base = Number(prompt("Qual é a base do triângulo? "))
+let altura = Number(prompt("E a altura? "))
+let area = base * altura / 2
+
+console.log(`Área: ${area.toFixed(2)}`)
+//
+
+20) Construa um script que leia o preço de um produto, o percentual de desconto e calcule 
+o valor a pagar e o valor do desconto.
+Entrada:       Saida:
+10             TOTAL = 9 
+10             DESCONTO = 10
+
+100            TOTAL = 80
+20             DESCONTO = 20
+
+//let preco = Number(prompt("Digite o preço do produto:"))
+let desconto = Number(prompt("Digite o percentual de desconto do produto:"))        
+let valorDesconto = (desconto / 100) * preco
+let valorPagar = preco - valorDesconto
+
+console.log(`O valor total a pagar é de R$${valorPagar.toFixed(2)}\nO desconto de ${desconto}% resultou em R$${valorDesconto.toFixed(2)}\n\n`)
+//
+
+21) Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). 
+Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.
+Entrada:             SAIDA:
+JOAO                 TOTAL = R$ 684.54
+500.00
+1230.30
+
+PEDRO                SAIDA:
+700.00               TOTAL = R$ 700.00
+0.00
+
+//let nomeVendedor = prompt("Informe o nome do vendedor");
+let salario = Number(prompt("Informe o salário do vendedor"));
+let vendas = Number(prompt("Informe o valor das vendas do vendedor"));
+let total = (vendas * 0.15) + salario;
+
+console.log(`O salário de ${nomeVendedor} é ${salario}, com um total de ${vendas} em vendas, seu salário total é: ${total.toFixed(2)}`);
+//
