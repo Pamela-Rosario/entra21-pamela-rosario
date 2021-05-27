@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    function cadastroNotas() {
+             let notas = []
+        for (let i = 0; i < 3; i++) {
+          notas[i] = []
+        for (let j = 0; j < 4; j++) {
+            if (j === 0) {
+            notas[i][j] = prompt(`Digite o nome do ${i + 1} aluno`)
+        } else {
+            notas[i][j] = +prompt(`Digite a nota do ${i + 1}o aluno`)
+        }                    
+    }
+}
+    
+</body>
+</html>
